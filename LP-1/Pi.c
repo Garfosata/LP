@@ -21,7 +21,7 @@ void PI(float segundos){
     /*Looping para Gerar os números aleatórios*/
     while(segundos >= relogio){
         /*Gerar Números Aleatórios*/
-        float random = ((float)rand() / RAND_MAX) * 99.0f + 1.0f;
+        float random = ((float)rand() / RAND_MAX) * 100.0f;
 
         /*Analisa se o Numero Gerado Está Dentro do Círculo o do Quadrado*/
         if(random >= 1 && random <= 78.50){

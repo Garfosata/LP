@@ -24,7 +24,7 @@ void PI(float segundos){
         float random = ((float)rand() / RAND_MAX) * 100.0f;
 
         /*Analisa se o Numero Gerado Está Dentro do Círculo o do Quadrado*/
-        if(random >= 1 && random <= 78.50){
+        if(random >= 0 && random <= 78.50){
             ++contc;
         }
         else if(random > 78.50 && random <= 100){

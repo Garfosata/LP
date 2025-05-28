@@ -7,7 +7,6 @@ int main()
     float salario0;
     float salario1;
     float salario2;
-    float IR;
     float IRpagar;
     float aux;
     float trans;
